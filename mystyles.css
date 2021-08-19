@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: aqua;
+  text-decoration: underline;
+}
+button:active {
+  font-weight: bold;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td {
+  min-width: 50px;
+}
